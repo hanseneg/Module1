@@ -1,0 +1,64 @@
+html {
+    background-color: beige;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+}
+.navflex {
+    border: 10px solid crimson;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 98%;
+    top: 0;
+}
+.navflex > a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: White;
+    background-color: black;
+}
+.navflex a:hover {
+    background-color: white;
+    color: black;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+img {
+    height: 250px;
+    text-decoration: none;
+}
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 700px) {
+    .list > div {
+        width: 100%;
+    }
+}
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.history > div{
+    font-size: 25px;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    margin-left: -350px;
+    padding: 80px;
+    border: 10px;
+}
